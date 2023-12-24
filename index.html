@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>versiculos biblia</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg" style="background-color: #007bff;">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" href="#">Versículos</a>
+      <div class="d-flex justify-content-end">
+        <a class="nav-link text-white" href="nosotros.html">Nosotros</a>
+      </div>
+    </div>
+  </nav>
+  
+
+  <header class="bg-gradient" style="background: linear-gradient(45deg, magenta, orange);">
+    <div class="container text-center text-white py-5">
+      <h1>Las Sagradas Escrituras </h1>
+      <p>Un viaje al corazón y al espiritu.</p>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col text-center my-4">
+        <h2>BHTI Génesis 1:2</h2>
+        <p class="text-start" style="text-justify: distribute;">la tierra era una masa caótica y las tinieblas cubrían el abismo, mientras un viento impetuoso sacudía la superficie de las aguas.</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col text-center my-4">
+        <h2>NBV Génesis 1:2</h2>
+        <p class="text-start" >La tierra estaba desordenada y no tenía forma. La oscuridad cubría el profundo abismo, mientras que el Espíritu de Dios se movía sobre las aguas.</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col text-center my-4">
+        <h2>NBV Efesios 6:12</h2>
+        <p class="text-start">Porque no estamos luchando contra enemigos de carne y hueso, sino contra las potencias invisibles que dominan en este mundo de tinieblas, contra las fuerzas espirituales del mal habitantes de un mundo supraterreno.</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Formulario -->
+  <div class="container my-4">
+    <h2>Añadir Versículo</h2>
+    <div id="message" class="alert" role="alert" style="display:none;"></div>
+    <form id="formAddVersiculo">
+      <div class="form-group">
+        <label for="versiculoTitulo">Título del Versículo</label>
+        <input type="text" id="versiculoTitulo" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label for="versiculoContenido">Contenido del Versículo</label>
+        <textarea id="versiculoContenido" class="form-control" rows="4" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Añadir Versículo</button>
+    </form>
+  </div>
+           
+            <main class="container my-4">
+            
+            </main>
+
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+           
+            <script src="indexdb.js"></script>
+
+</body>
+
+</html>
